@@ -21,13 +21,7 @@ public class EmpConsumerControllerClient {
 		}catch (Exception ex){
 			System.out.println(ex);
 		}
-<<<<<<< HEAD
 		System.out.println(response.getBody());
-		System.out.println("Hello hello hi");
-=======
-		System.out.println(response.getBody());
-		System.out.println("Satya...");
->>>>>>> 965088456e0a346fc27285a6bcb96706e1525121
 	}
 
 	private static HttpEntity<?> getHeaders() throws IOException {
