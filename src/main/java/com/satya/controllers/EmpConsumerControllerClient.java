@@ -22,7 +22,7 @@ public class EmpConsumerControllerClient {
 			System.out.println(ex);
 		}
 		System.out.println(response.getBody());
-		System.out.println("End of main");
+		System.out.println("End of main method");
 	}
 
 	private static HttpEntity<?> getHeaders() throws IOException {
